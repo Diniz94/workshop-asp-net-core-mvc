@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SalesWebMvc.Data
+namespace SalesWebMVC.Data
 {
     internal class SalesWebMvcContext
     {
