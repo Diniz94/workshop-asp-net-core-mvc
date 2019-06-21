@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SalesWebMVC.Services;
+using SalesWebMVC.Models;
 using SalesWebMVC.Views.Models;
 
 namespace SalesWebMVC.Controllers
