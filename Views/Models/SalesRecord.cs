@@ -1,4 +1,5 @@
-﻿using SalesWebMVC.Views.Models.Enums;
+﻿using SalesWebMVC.Models;
+using SalesWebMVC.Views.Models.Enums;
 using System;
 
 namespace SalesWebMVC.Views.Models

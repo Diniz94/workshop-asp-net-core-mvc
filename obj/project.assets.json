@@ -2,6 +2,25 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "jose-jwt/2.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "System.IO.Compression": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Cng": "4.3.0",
+          "System.Security.Cryptography.Csp": "4.3.0",
+          "System.Security.Cryptography.X509Certificates": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.4/jose-jwt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/jose-jwt.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4155,7 +4174,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Security.Cryptography.Csp.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Csp.dll": {
@@ -4657,6 +4676,20 @@
     }
   },
   "libraries": {
+    "jose-jwt/2.4.0": {
+      "sha512": "3rhpWfkgOO8TBKXVYTPHSVpkTEqThQO/RJ75NBJ7Xqw37jzbhRgsECIlXbI5uAwlmCW/5jKuyoDqrobClkitLQ==",
+      "type": "package",
+      "path": "jose-jwt/2.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jose-jwt.2.4.0.nupkg.sha512",
+        "jose-jwt.nuspec",
+        "lib/net40/jose-jwt.dll",
+        "lib/net461/jose-jwt.dll",
+        "lib/netstandard1.4/jose-jwt.dll"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -12608,7 +12641,8 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
-      "Pomelo.EntityFrameworkCore.MySql >= 2.1.1"
+      "Pomelo.EntityFrameworkCore.MySql >= 2.1.1",
+      "jose-jwt >= 2.4.0"
     ]
   },
   "packageFolders": {
@@ -12675,6 +12709,10 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[2.1.1, )"
+          },
+          "jose-jwt": {
+            "target": "Package",
+            "version": "[2.4.0, )"
           }
         },
         "imports": [

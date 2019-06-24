@@ -64,6 +64,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[2.1.1, )"
+            },
+            "jose-jwt": {
+              "target": "Package",
+              "version": "[2.4.0, )"
             }
           },
           "imports": [

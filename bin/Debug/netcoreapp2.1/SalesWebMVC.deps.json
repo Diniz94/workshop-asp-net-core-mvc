@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "a8f1f2f0b0199b4bfdc0c66860be498b01121629"
+    "signature": "2e063977abc1fd297f111ac5659228556d7dc19e"
   },
   "compilationOptions": {
     "defines": [
@@ -28,13 +28,35 @@
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9",
-          "Pomelo.EntityFrameworkCore.MySql": "2.1.1"
+          "Pomelo.EntityFrameworkCore.MySql": "2.1.1",
+          "jose-jwt": "2.4.0"
         },
         "runtime": {
           "SalesWebMVC.dll": {}
         },
         "compile": {
           "SalesWebMVC.dll": {}
+        }
+      },
+      "jose-jwt/2.4.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2",
+          "System.IO.Compression": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0",
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Cng": "4.5.0",
+          "System.Security.Cryptography.Csp": "4.3.0",
+          "System.Security.Cryptography.X509Certificates": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/jose-jwt.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.4/jose-jwt.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -3506,6 +3528,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jose-jwt/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3rhpWfkgOO8TBKXVYTPHSVpkTEqThQO/RJ75NBJ7Xqw37jzbhRgsECIlXbI5uAwlmCW/5jKuyoDqrobClkitLQ==",
+      "path": "jose-jwt/2.4.0",
+      "hashPath": "jose-jwt.2.4.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",

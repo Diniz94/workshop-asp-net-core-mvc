@@ -1,9 +1,10 @@
 ﻿using SalesWebMVC.Models;
+using SalesWebMVC.Views.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SalesWebMVC.Views.Models
+namespace SalesWebMVC.Models
 {
     public class Seller
     {
